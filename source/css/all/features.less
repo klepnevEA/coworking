@@ -1,0 +1,62 @@
+.features {
+    margin-bottom: 90px;
+    &__list {
+        width: 790px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__elem {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__img {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 68px;
+        height: 68px;
+        background: @blue;
+        border-radius: 50%;
+        margin-bottom: 30px;
+    }
+
+    &__title {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: @black;
+        font-family: 'GothamPro-Bold';
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        text-align: center;
+        font-size: 18px;
+        font-family: 'OpenSans-Regular';
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    &__roster {
+        font-size: 18px;
+        font-family: 'OpenSans-Regular';
+        align-self: stretch;
+        padding-left: 20px;
+        color: @black;
+
+        li {
+            margin-bottom: 10px;
+            list-style: disc;
+            list-style-position: inside;
+            color: @purple;
+
+            span {
+                color: @black;
+            }
+        }
+    }
+}
+

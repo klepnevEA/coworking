@@ -1,0 +1,45 @@
+.nav {
+
+	&__elem {
+		&:hover,
+		&_active {
+
+			.nav__link {
+				color: #000;
+				text-decoration: underline;
+	
+				.nav__icon {
+					img {
+						filter: grayscale(100%);
+					}
+				}
+			}
+			
+		}
+	}
+	&__link {
+		display: inline-flex;
+		align-items: center;
+		height: 20px;
+		font-size: 12px;
+		color: @purple;
+		text-transform: uppercase;
+		font-family: 'GothamPro-Bold';
+		margin-bottom: 30px;
+		transition: 0.3s;
+	
+	}
+
+	&__icon {
+		width: 20px;
+		margin-right: 17px;
+
+		img {
+			transition: 0.3s;
+		}
+	}
+
+}
+
+
+  

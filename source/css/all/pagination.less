@@ -1,0 +1,47 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+
+    &__list {
+        display: flex;
+    }
+
+    &__text {
+        font-size: 14px;
+        font-family: "Roboto-Light";
+        color: #656464;
+        padding: 0 20px;
+    }
+
+    &__arrow {
+        width: 25px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__link {
+        font-size: 14px;
+        font-family: "Roboto-Bold";
+        width: 25px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000;
+        border-radius: 3px;
+        transition: 0.3s;
+
+        &:hover,
+        &_active {
+            color: #fff;
+            background-color: #000;
+        }
+    }
+}
+
+
+  

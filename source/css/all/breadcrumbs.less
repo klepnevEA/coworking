@@ -1,0 +1,40 @@
+.breadcrumbs {
+    margin-bottom: 20px;
+    
+    &__list {
+        display: flex;
+    }
+
+    &__elem {
+        &:after {
+            content: '/';
+            text-decoration: none;
+            color: #221f1f;
+            font-family: 'GothamPro-LightItalic';
+            font-size: 14px;
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+
+        &:last-child {
+            &:after {
+                content: '';
+            }
+
+            .breadcrumbs__link {
+                color: #221f1f;
+                text-decoration: none;
+                cursor: default;
+            }
+        }
+    }
+
+    &__link {
+        font-family: 'GothamPro-LightItalic';
+        font-size: 14px;
+        text-decoration: underline;
+        color: @purple;
+
+
+    }
+}
